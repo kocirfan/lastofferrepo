@@ -4,7 +4,7 @@ client_id = "e2945543b4c7584708ccdcf8df1dd065"
 name = "last-offer-app"
 handle = "last-offer-app-1"
 application_url = "https://prediction-problem-uncle-hat.trycloudflare.com"
-embedded = true
+embedded = false
 
 [build]
 include_config_on_deploy = true
