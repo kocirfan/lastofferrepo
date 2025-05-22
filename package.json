@@ -2,7 +2,7 @@
   "name": "last-offer-app",
   "private": true,
   "scripts": {
-    "build": "prisma generate && remix build",
+    "build": "remix build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
@@ -16,6 +16,7 @@
     "shopify": "shopify",
     "prisma": "prisma",
     "graphql-codegen": "graphql-codegen",
+    "vercel-build": "prisma generate && npm run build",
     "vite": "vite"
   },
   "type": "module",
