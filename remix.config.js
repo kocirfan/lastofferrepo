@@ -11,10 +11,8 @@ if (
 }
 
 /** @type {import('@remix-run/dev').AppConfig} */
-module.exports = {
-  ignoredRouteFiles: ["**/.*"],
-  appDirectory: "app",
-  serverModuleFormat: "cjs",
-  dev: { port: process.env.HMR_SERVER_PORT || 8002 },
-  future: {},
-};
+export const ignoredRouteFiles = ["**/.*"];
+export const appDirectory = "app";
+export const serverModuleFormat = "cjs";
+export const dev = { port: process.env.HMR_SERVER_PORT || 8002 };
+export const future = {};
