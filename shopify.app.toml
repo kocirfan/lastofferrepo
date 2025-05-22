@@ -3,8 +3,8 @@
 client_id = "e2945543b4c7584708ccdcf8df1dd065"
 name = "last-offer-app"
 handle = "last-offer-app-1"
-application_url = "https://prediction-problem-uncle-hat.trycloudflare.com"
-embedded = false
+application_url = "https://lastofferrepo.vercel.app"
+embedded = true
 
 [build]
 include_config_on_deploy = true
@@ -27,9 +27,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://prediction-problem-uncle-hat.trycloudflare.com/auth/callback",
-  "https://prediction-problem-uncle-hat.trycloudflare.com/auth/shopify/callback",
-  "https://prediction-problem-uncle-hat.trycloudflare.com/api/auth/callback"
+  "https://lastofferrepo.vercel.app/auth/callback",
+  "https://lastofferrepo.vercel.app/auth/shopify/callback",
+  "https://lastofferrepo.vercel.app/api/auth/callback"
 ]
 
 [pos]
